@@ -34,7 +34,6 @@ public class OrderItemPK implements Serializable{
 	public void setProduct(Product product) {
 		this.product = product;
 	}
-	
 	@Override
 	public int hashCode() {
 		return Objects.hash(order, product);
@@ -51,8 +50,6 @@ public class OrderItemPK implements Serializable{
 		return Objects.equals(order, other.order) && Objects.equals(product, other.product);
 	}
 	
-	
-	
-	
 
+	
 }
